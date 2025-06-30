@@ -13,7 +13,8 @@ import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-# Tải mô hình và công cụ xử lý
+# Tải mô hình và công cụ xử lýgit status
+
 model = load_model("model/lstm_model.h5")
 with open("model/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
